@@ -1,2 +1,3 @@
 cd springApp
-docker build -t ablity .
+docker build -t ability .
+cd ../
