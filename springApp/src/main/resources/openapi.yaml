@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: ablity202404
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /hello:
+    get:
+      operationId: getHello
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: string
+          description: OK
+      summary: hello
+      x-accepts:
+      - application/json
+components:
+  schemas: {}
